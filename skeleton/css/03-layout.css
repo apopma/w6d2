@@ -22,13 +22,13 @@
 .content-sidebar {
   float: left;
   display: inline-block;
-  min-height: 200px;
+  min-height: 240px;
   width: 240px;
 }
 
 .content-main {
   float: right;
   display: inline-block;
-  min-height: 200px;
+  min-height: 240px;
   width: 660px;
 }
