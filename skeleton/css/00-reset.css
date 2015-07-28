@@ -9,7 +9,7 @@ span, article, footer, time, small {
   border: 0;
   padding: 0;
   outline: 0;
-  font-family: courier;
+  font-family: 'Roboto', 'Courier';
   color: inherit;
   box-sizing: inherit;
   text-decoration: inherit;
