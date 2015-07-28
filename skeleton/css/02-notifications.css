@@ -1,1 +1,28 @@
 /* PHASE 2: Notifications */
+
+.header-list li:hover .notification-list {
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 40px;
+  background-color: white;
+  color: black;
+  border-left: 1px solid #CBCBCB;
+  border-right: 1px solid #CBCBCB;
+  border-bottom: 1px solid #CBCBCB;
+  border-radius: 5px;
+}
+
+.notification-list {
+  display: none;
+}
+
+.notification-list li {
+  width: 100%;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.notification-list li:hover {
+  background-color: #EDEDED;
+}
