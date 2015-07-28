@@ -1,6 +1,7 @@
 /* PHASE 2: Notifications */
 
 .header-list li:hover .notification-list {
+  box-sizing: border-box;
   display: block;
   position: absolute;
   left: 0%;
@@ -10,17 +11,26 @@
   border-left: 1px solid #CBCBCB;
   border-right: 1px solid #CBCBCB;
   border-bottom: 1px solid #CBCBCB;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .notification-list {
   display: none;
+  overflow: hidden;
+}
+
+.notification-list :last-child {
+  border-bottom: 0;
 }
 
 .notification-list li {
   width: 100%;
   font-size: 14px;
   white-space: nowrap;
+  background-color: white;
+  padding: 12px 20px;
+  border-bottom: 1px solid #CBCBCB;
 }
 
 .notification-list li:hover {
