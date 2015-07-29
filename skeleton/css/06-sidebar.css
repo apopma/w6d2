@@ -2,7 +2,7 @@
 
 .content-sidebar {
   box-sizing: border-box;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 20px 20px;
 }
 
 .content-sidebar h2 {
@@ -26,7 +26,7 @@
   font-size: 16px;
   font-weight: 700;
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .profile-links li {

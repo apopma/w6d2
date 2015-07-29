@@ -1,1 +1,22 @@
 /* PHASE 8: Thumbs */
+.thumb {
+  box-sizing: border-box;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.thumbnails-grid :nth-child(3n) .thumb {
+  margin-right: 0;
+}
+
+.thumb img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.thumbnails-grid {
+  padding-bottom: 20px;
+}
